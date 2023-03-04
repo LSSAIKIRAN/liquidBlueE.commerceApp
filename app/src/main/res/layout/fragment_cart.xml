@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.CartFragment">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cartRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="vertical"
+        tools:listitem="@layout/layout_cart_item"
+        android:layout_marginBottom="@dimen/_12mdp"/>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/_7mdp"
+        app:cardCornerRadius="@dimen/_12mdp"
+        android:layout_margin="@dimen/_5mdp"
+        android:layout_below="@id/cartRecycler"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/_12mdp">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12mdp"
+                android:layout_marginBottom="@dimen/_12mdp"
+                android:text="Total Items 10"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14font_mdp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12mdp"
+                android:layout_marginBottom="@dimen/_12mdp"
+                android:text="Total Cost: 2000"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14font_mdp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/checkout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12mdp"
+                android:text="Checkout"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

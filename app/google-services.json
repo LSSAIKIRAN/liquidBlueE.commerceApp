@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "185996878972",
+    "project_id": "liquidblue-6933c",
+    "storage_bucket": "liquidblue-6933c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185996878972:android:9568bc63f8c9484e8115f9",
+        "android_client_info": {
+          "package_name": "com.kiran.liquidblue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185996878972-887mv1r59hh7cbcssojhr76c7a3jshra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmJDOa1jA6s-62VWCZkCRoGUT9mTPqo24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185996878972-887mv1r59hh7cbcssojhr76c7a3jshra.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
